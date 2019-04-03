@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1554324890 source:c:\users\cuent\onedrive\escritorio\tp_laboratorio_1\trabajo practico nº1\operaciones.c
+
+1554325002 source:c:\users\cuent\onedrive\escritorio\tp_laboratorio_1\trabajo practico nº1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"operaciones.h"
+
+1554324284 c:\users\cuent\onedrive\escritorio\tp_laboratorio_1\trabajo practico nº1\operaciones.h
+
