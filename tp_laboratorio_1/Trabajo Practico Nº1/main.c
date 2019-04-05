@@ -5,26 +5,44 @@
 int main()
 {
     char seguir='s';
+
     int opcion=0;
+
     float numeroUno=0;
+
     float numeroDos=0;
+
     float suma;
+
     float resta;
+
     float division;
+
     float multiplicacion;
+
     float totalFactorial;
+
 
     while(seguir=='s')
     {
-        printf("-----calculadora TPN°1-----\n\n");
+        printf("-----calculadora-TPN°1-----\n\n");
+
         printf("1- Ingresar primer numero (A=%.1f)\n", numeroUno);
+
         printf("2- Ingresar segundo numero (B=%.1f)\n", numeroDos);
+
         printf("3- Calcular la suma (A+B)\n");
+
         printf("4- Calcular la resta (A-B)\n");
+
         printf("5- Calcular la division (A/B)\n");
+
         printf("6- Calcular la multiplicacion (A*B)\n");
+
         printf("7- Calcular el factorial (A!)\n");
+
         printf("8- Calcular todas las operaciones\n");
+
         printf("9- Salir\n");
 
         scanf("%d",&opcion);
@@ -154,7 +172,8 @@ int main()
                 break;
 
 
-            case 9:
+
+             case 9:
                 system("cls");
                 seguir = 'n';
                 printf("\nHasta luego, espero haberlo ayudado.\n");
